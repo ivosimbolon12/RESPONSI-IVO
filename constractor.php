@@ -4,7 +4,7 @@
 require_once "data/Person.php";
 
 // buat object new person dengan 2 parameter
-$alzah = new Person("alzah", "bengkulu");
+$ivo = new Person("ivo", "medan");
 
 // vardump object
-var_dump($alzah);
+var_dump($ivo);

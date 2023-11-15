@@ -13,21 +13,21 @@ class Person{
 
     // buat function sayHello
     function sayHello(string $nama){
-        echo "Hello $nama" . PHP_EOL;
+        echo "Hi $nama" . PHP_EOL;
     }
 
     // buat function sayHello nullable dengan percabangan
     function sayHelloNull(?string $nama)
     {
         if (is_null($nama)) {
-            echo "Hi, my nama is $this->nama" . PHP_EOL;
+            echo "Hi, namaku $this->nama" . PHP_EOL;
         } else {
-            echo "Hi $nama, my nama is $this->nama" . PHP_EOL;
+            echo "Hi $nama, namaku $this->nama" . PHP_EOL;
         }
     }
 
     // buat const author
-    const AUTHOR = "Kelas PBO A 23";
+    const AUTHOR = "Aplication";
 
     // buat function info untuk self keyword
     function info()

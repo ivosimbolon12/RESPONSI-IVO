@@ -4,10 +4,12 @@
 require_once "data/person.php";
 
 // buat object baru dari kelas person
-$person1 = new Person("alzah","bengkulu");
+$person1 = new Person("ivo","medan");
 
 // manipulasi properti nama person
-$person1->nama = "alzah";
+$person1->nama = "ivo";
+$person1->alamat = "medan";
+$person1->negara = "jepang";
 
 // menampilkan hasil
 echo "nama = {$person1->nama}" . PHP_EOL;

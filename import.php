@@ -7,8 +7,8 @@ use Data\One\Conflict;
 use function Helper\helpMe;
 use const Helper\APPLICATION;
 
-$conflict1 = new Conflict();
-$conflict2 = new Data\Two\Conflict();
+$conflict1 = new Data\satu\Conflict();
+$conflict2 = new Data\dua\Conflict();
 
 helpMe();
 

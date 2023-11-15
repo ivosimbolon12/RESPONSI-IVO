@@ -4,19 +4,19 @@
 require_once "data/person.php";
 
 // buat object dari kelas person
-$alzah = new Person("alzah", "bengkulu");
+$ivo = new Person("ivo", "medan");
 
 // tambahkan value nama di object
-$alzah->nama = "alzah";
+$ivo->nama = "ivo";
 
 // panggil function sayHelloNull dengan parameter
-$alzah->sayHelloNull("Kic");
+$ivo->sayHelloNull("Kic");
 
 // buat object dari kelas person
-$fariski = new Person("fariski", "jambi");
+$simbolon = new Person("simbolon", "jepang");
 
 // tambahkan value nama di object
-$fariski->nama = "fariski";
+$simbolon->nama = "simbolon";
 
 // panggil function sayHelloNull dengan parameter null
-$fariski->sayHelloNull(null);
+$simbolon->sayHelloNull(null);

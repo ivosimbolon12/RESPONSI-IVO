@@ -4,8 +4,8 @@
 require_once "data/Person.php";
 
 // buat 2 object new peson dengan parameter yang berbeda
-$alzah = new Person("alzah", "bengkulu");
-$fariski = new Person("fariski", "jambi");
+$ivo = new Person("ivo", "medan");
+$simbolon = new Person("simbolon", "bengkulu");
 
 // tambahkan echo "Program Selesai" . PHP_EOL;
 echo "Program Selesai" . PHP_EOL;
